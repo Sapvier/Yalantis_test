@@ -17,7 +17,6 @@ const AlphabetList = () => {
 
     useEffect(() => {
         dispatch(fetchUsers(checkedUsers.checkedUsers))
-        console.log(checkedUsers.checkedUsers)
     }, [])
 
     return (

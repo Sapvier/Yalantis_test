@@ -23,15 +23,6 @@ export function checkUser(user) {
     }
 }
 
-export function addUsers(users) {
-
-    return
-    // type: "ADD_USERS",
-    // payload: users
-    console.log(users)
-
-}
-
 export function uncheckUser(user) {
     return {
         type: "UNCHECK_USER",
@@ -39,28 +30,6 @@ export function uncheckUser(user) {
     }
 }
 
-export function addUser(user) {
-    let newUser = {
-        id: user.id,
-        lastName: user.lastName,
-        firstName: user.firstName,
-        dob: user.dob,
-        checked: true
-    }
-    return {
-        type: "ADD_USER",
-        payload: newUser
-
-    }
-}
-
-export function deleteUser(user) {
-    return {
-        type: "DELETE_USER",
-        payload: user.id
-
-    }
-}
 
 
 
