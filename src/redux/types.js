@@ -1,0 +1,7 @@
+export const FETCH_USERS = "FETCH_USERS"
+export const CHECK_USER = "CHECK_USER"
+export const UNCHECK_USER = "UNCHECK_USER"
+export const ADD_USERS = "ADD_USERS"
+export const DELETE_DUPLICATED = "DELETE_DUPLICATED"
+export const DELETE_USER = "DELETE_USER"
+export const ADD_USER = "ADD_USER"

@@ -1,0 +1,147 @@
+@media screen and (min-width: 768px) {
+
+    .container {
+        display: flex;
+        width: 100%;
+    }
+
+    .userContainer {
+        width: 82%;
+    }
+
+    .userList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .userListTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .user {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .noUsers {
+        margin-top: 20px;
+    }
+
+    .letter {
+        margin-top: 20px;
+    }
+
+    .monthContainer {
+        width: 18%;
+        border-left: 1px solid gray;
+    }
+
+    .monthListTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .monthList {
+        display: flex;
+        padding-left: 10px;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
+    .checkedUser {
+        margin-bottom: 10px;
+    }
+
+    .emptyTitle {
+        display: flex;
+        justify-content: center;
+    }
+
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .container {
+        display: flex;
+        width: 100%;
+    }
+
+    .userContainer {
+        width: 50%
+    }
+
+    .userList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .userListTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .user {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .noUsers {
+        width: 55%;
+        margin-top: 20px;
+    }
+
+    .letter {
+        margin-top: 20px;
+    }
+
+    .monthContainer {
+        width: 50%;
+        border-left: 1px solid gray;
+    }
+
+    .monthListTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .monthList {
+        display: flex;
+        padding-left: 10px;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
+    .checkedUser {
+        margin-bottom: 10px;
+    }
+
+    .emptyTitle {
+        display: flex;
+        justify-content: center;
+    }
+
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+}
+
+
+
+
